@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- xmlns:app="http://schemas.android.com/apk/res-auto" -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relay_topmsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/textview_go_buy_cards" 
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textview_serviceType_card_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:background="@color/aF8E8E8"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/margin_left"
+                        android:paddingRight="@dimen/margin_right"
+                        android:text="折扣卡"
+                        android:textColor="@color/aD1494F"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:layout_width="6dp"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="-0.9dp"
+                        android:layout_marginRight="10dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/red_right" />
+                </LinearLayout>
+
+                <com.haotang.pet.verticalbanner.VerticalBannerView
+                    android:id="@+id/vbv_mainfragmentcontent_topmsg_msg"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    app:animDuration="900"
+                    app:gap="3000" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textview_go_buy_cards"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/margin_left"
+                android:paddingRight="@dimen/margin_right"
+                android:text="立即抢购"
+                android:textColor="@color/aD1494F"
+                android:background="@color/white"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/af8f8f8" />
+
+    <LinearLayout
+        android:id="@+id/layout_un_login_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <!-- com.haotang.pet.view.CircleImageView -->
+            <!-- app:border_color="@color/red" app:border_width="0dp" -->
+
+            <com.haotang.pet.view.CircleImageView
+                android:id="@+id/cir_pet_icon"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:adjustViewBounds="true"
+                android:padding="1dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/beau_to_apponiment" 
+                app:border_width="0dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/img_is_choose" >
+
+                    <TextView
+                        android:id="@+id/item_service_mypet_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:textColor="@color/a666666"
+                        android:text="主人，让宠物家认识我吧！" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/img_is_choose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/service_button_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/bg_button_service_new_appoint_ok"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="9dp"
+                    android:paddingRight="9dp"
+                    android:paddingTop="3dp"
+                    android:scaleType="fitXY"
+                    android:text="添加宠物"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/item_service_appoinment_yue" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/af8f8f8" />
+    </LinearLayout>
+
+    <com.haotang.pet.view.MListview
+        android:id="@+id/mListview_my_pet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@color/transparent" 
+        android:divider="@null"
+        android:background="@color/white"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/af8f8f8" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="@dimen/margin_left"
+        android:paddingRight="@dimen/margin_right"
+        android:gravity="center_vertical" 
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/relay_choose_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingRight="5dp" >
+
+            <TextView
+                android:id="@+id/address_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/address_right_img"
+                android:drawableRight="@drawable/remark_right"
+                android:drawablePadding="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="请填写宠物所在区域" />
+
+            <ImageView
+                android:id="@+id/address_right_img"
+                android:layout_width="12.5dp"
+                android:layout_height="12dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/user_edit_show"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relay_choose_shop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:paddingLeft="5dp" >
+
+            <TextView
+                android:id="@+id/shop_address_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/shop_address_right_img"
+                android:ellipsize="end"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/shop_address_right_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="切换"
+                android:textColor="@color/a209DDE"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/af8f8f8" />
+    <com.haotang.pet.view.MListview
+        android:id="@+id/mListview_service_type"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/af8f8f8"
+        android:dividerHeight="10dp"
+        android:listSelector="@color/transparent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/af8f8f8" />
+
+    <com.haotang.pet.view.MListview
+        android:id="@+id/service_scaling_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/bggray"
+        android:dividerHeight="0dip"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" />
+
+</LinearLayout>

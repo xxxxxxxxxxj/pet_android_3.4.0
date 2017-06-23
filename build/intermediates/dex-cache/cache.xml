@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_b4f6ac43f109be61cde67a72ca5d90c3b973a4db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\umeng-analytics-v5.5.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5d503ec571e2e98d972209afa203f94d11882c15">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\umeng-analytics-v5.5.3_caae2c6fd1c462a4c12e306f99b49fa17e47689a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0_7afbf9586dc2a6b9171779bc772fd5b5a5cd7fba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\bqmm_v1.7.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8feb674ae7db91b6b07bbdcc0ba293db6201940d">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\bqmm_v1.7.5_6fd7fb7a963fa0ceb64ef7d3d5a5012dbd44d5ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\recorderlibrary.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5c45c2a85ca3ef2fdf5c27144bf86ff974d068f0">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\recorderlibrary_562642d0fb5d38588ceb349ec608b83825c576e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\httpmime-4.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\httpmime-4.1.3_6da2785ee39d225b540c8820bf1ac7e29cb5213c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations-java5\15.0\7011b4551a8451906759b05814c58b9eb829ea9b\annotations-java5-15.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7011b4551a8451906759b05814c58b9eb829ea9b">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\annotations-java5-15.0_406fe05795ba044ba05641198aced5f1af02fa7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\json_simple-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\json_simple-1.1_0aaecd68d2b2309375e67951cf3be1031109c08e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\alipaysecsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7413c074c9edf523050267b93d0875151dc4b644">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\alipaysecsdk_24ae0fbef73a7303d3641f310dc87c4baf103ce8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.1\2e66da15851f9f5b5079228f856c2f090ba98c38\gson-2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\gson-2.1_57f4ed2aaaec20d1acfa6ca21b3874fcfc645fc3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studiosdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_4c91b7d4976c31b4cbfa7b1e253c48070a8e4f06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\SocialSDK_AtFriends.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="801adcdfad1a73f352ab0fbfadaf315e88b26823">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\SocialSDK_AtFriends_6d9650e7db444516c5fd9d5f102703872f857b00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\rxandroid-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\rxandroid-1.1.0_bf99a124f0b6c9b4996873fd8db36a7d87fdbe9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\glide-3.7.0_959e7650236beb0219352c1d3389f57c02f7625f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\rxjava-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="748f0546d5c3c27f1aef07270ffea0c45f0c42a4">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\rxjava-1.1.0_bbf4a25a366bf68c0498583d215ef8554720fb7f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\cyberplayer-sdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="412f0f2ebc711540ef966d931418e8320783146c">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\cyberplayer-sdk_459f50602ae15a5a5f4c2cff4d24b4504c2df0c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\alipaysdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0c3384f9877b711c3f0b6556ce9ec7f63dc2426e">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\alipaysdk_fd98f85a6de996bf85645243ee2276b6e6be9c98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\zxing.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e88c14e6e7daa0fa65172a62b54ee6a16ff4162d">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\zxing_8321e37b11ba1709a338246dd8318fa18a29b7ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_4bae2d80a198339b94f98b5fd281ff0c5e1566c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\SocialSDK_Sina.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a6eee0ece63ba5e74411057d09eda1a5a01ca940">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\SocialSDK_Sina_230013f314e0a1dbd4609aa762c43dac26c607ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\umeng_social_sdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4688dc44ccef22b7f057301ee6abbe187a8d35ea">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\umeng_social_sdk_4a383cbdfa2da7503fad3add4575f8d7299d0fd7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\libammsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c2f29c05b35e8c8713be2b81c41cf18f98b64a">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\libammsdk_cfde6d0f78117666153da4d2cc340e0f5bdc96ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\alipayutdid.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\alipayutdid_83e315182bca33f2fce14acd42362229f6063258.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\SocialSDK_QQZone_3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="931ab461b91c2a2fd5c697e7f622cdca8c2b3ac5">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_3_270870de14662d1f410d40423ab2af57ea6a3d4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\jpush-android-2.1.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38dd284400de7ff5fab09098a1b8fd30cc5980c7">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\jpush-android-2.1.7_7dbcdca40cf760610957d38e84fa7cbae666f3ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\SocialSDK_QQZone_2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a69b33758dcba3ef519cbd4b6c8af5f41603c4f">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_2_9e731c20a141c9584805f311ab9cfb703c249c0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="de91930b1dcc0308ab72296404c4138aa4081086">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android_cba085365ae7dae83d490b5c623ed2407d536921.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3_393c015caca2510ce38ed1aadbb66d1e3aed895d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\org.eclipse.jdt.annotation_1.0.1.v20130111-135246.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b53cca6c9db3a088197d72433fe3b8b80d99eb38">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\org.eclipse.jdt.annotation_1.0.1.v20130111-135246_d8afc9c914f25c34d5b19ee76f4cd92a956940ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\SocialSDK_tencentWB_1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="328c5351cae13f2ab29450d22b6c02d0ac88a855">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\SocialSDK_tencentWB_1_1dd696a9f9bf958d3a57084f8dc804e288352c39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\SocialSDK_tencentWB_2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6f744074067eb201171c9c8ff1ca45ed821a76a8">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\SocialSDK_tencentWB_2_7eb2c502c3495289bd6338d6c4165dd464e87873.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\SocialSDK_WeiXin_2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b651be701cb256e3972e7c5a07119f26bb7b44a4">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_2_eb5a5b115af589c9cf316ec568486bf1b9622148.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\SocialSDK_tencentWB_3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ffa8f4a76d210b0e34c255891e4d7478faf7b918">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\SocialSDK_tencentWB_3_58eb2345704766146bdd35fb97112ac8ac525881.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\libs\SocialSDK_QQZone_1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="C:\Users\XJ\Desktop\pet_android_3.4.0\pet_android_3.4.0\app\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_1_e253aff2da49559aaffd44ff675dab37b4435559.jar" />
+    </item>
+
+</items>

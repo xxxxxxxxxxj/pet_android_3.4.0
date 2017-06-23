@@ -1,0 +1,351 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    xmlns:app="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/ll_appointmentnew_top"
+        layout="@layout/titlebar4" />
+
+    <LinearLayout
+        android:id="@+id/ll_appointmentnew_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rl_appointmentnew_servicecard"
+            android:layout_width="match_parent"
+            android:layout_height="44dip"
+            android:background="@drawable/rl_appointmentnew_servicetype_selector"
+            android:paddingLeft="15dip"
+            android:paddingRight="5dip" >
+
+            <ImageView
+                android:id="@+id/iv_appointmentnew_right3"
+                android:layout_width="20dip"
+                android:layout_height="30dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_rightarrow"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/tv_appointmentnew_servicecard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/iv_appointmentnew_right3"
+                android:text="去购卡"
+                android:textColor="@color/a666666"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_appointmentnew_servicecarddes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:layout_toLeftOf="@+id/tv_appointmentnew_servicecard"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="未购买洗美折扣卡，原价支付"
+                android:textColor="@color/a333333"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dip"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/tv_appointmentnew_payprice"
+                android:layout_width="140dip"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@color/aD1494F"
+                android:gravity="center"
+                android:text="TextView"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_appointmentnew_paydes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/tv_appointmentnew_payprice"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dip"
+                android:paddingRight="15dip"
+                android:singleLine="true"
+                android:text="TextView"
+                android:textColor="@color/a666666"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/slv_appointmentnew"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ll_appointmentnew_bottom"
+        android:layout_below="@id/ll_appointmentnew_top"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.haotang.pet.view.MListview
+                android:id="@+id/mlv_appointmentnew_pet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/list_item_divider"
+                android:dividerHeight="0.5dip"
+                android:listSelector="@drawable/mlistview_selector"
+                android:scrollbars="none" />
+
+            <RelativeLayout
+                android:id="@+id/rl_appointmentnew_servicetype"
+                android:layout_width="match_parent"
+                android:layout_height="36dip"
+                android:background="@drawable/rl_appointmentnew_servicetype_selector"
+                android:paddingLeft="15dip"
+                android:paddingRight="5dip" >
+
+                <ImageView
+                    android:id="@+id/iv_appointmentnew_right1"
+                    android:layout_width="20dip"
+                    android:layout_height="30dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_rightarrow"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/tv_appointmentnew_fhxg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/iv_appointmentnew_right1"
+                    android:text="返回修改"
+                    android:textColor="@color/a666666"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_appointmentnew_servicetype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dip"
+                    android:layout_toLeftOf="@+id/tv_appointmentnew_fhxg"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="TextView"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dip"
+                android:background="@color/f8f8ff8" />
+
+            <RelativeLayout
+                android:id="@+id/rl_appointmentnew_choose_time"
+                android:layout_width="match_parent"
+                android:layout_height="44dip"
+                android:background="@drawable/rl_appointmentnew_choose_time_selector"
+                android:paddingLeft="15dip"
+                android:paddingRight="5dip" >
+
+                <TextView
+                    android:id="@+id/tv_appointmentnew_yuyue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="预约时间"
+                    android:textColor="@color/a333333"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/iv_appointmentnew_right2"
+                    android:layout_width="20dip"
+                    android:layout_height="30dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_rightarrow"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/tv_appointmentnew_yuyuetime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/iv_appointmentnew_right2"
+                    android:layout_toRightOf="@+id/tv_appointmentnew_yuyue"
+                    android:gravity="right"
+                    android:hint="请选择服务时间"
+                    android:textColor="@color/a666666"
+                    android:textColorHint="@color/acccccc"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <com.haotang.pet.view.MyGridView
+                android:id="@+id/mgv_appointmentnew_level"
+                android:layout_width="match_parent"
+                android:layout_height="65dip"
+                android:numColumns="3" />
+
+            <com.haotang.pet.view.HorizontalListView
+                android:id="@+id/hlv_appointmentnew_beautician"
+                android:layout_width="match_parent"
+                android:layout_height="114dip"
+                android:layout_margin="15dip" />
+
+            <LinearLayout
+                android:id="@+id/ll_appointmentnew_addservices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="15dip"
+                    android:layout_marginBottom="30dip"
+                    android:background="@color/f8f8ff8" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dip"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip" >
+
+                    <TextView
+                        android:id="@+id/tv_appointmentnew_addservices"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="15dip"
+                        android:layout_marginRight="15dip"
+                        android:text="单项服务，对宝贝更加体贴"
+                        android:textColor="@color/a666666"
+                        android:textSize="14sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/tv_appointmentnew_addservices"
+                        android:background="@color/acccccc" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/tv_appointmentnew_addservices"
+                        android:background="@color/acccccc" />
+                </RelativeLayout>
+
+                <com.haotang.pet.view.MyGridView
+                    android:id="@+id/mgv_appointmentnew_addservice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginRight="15dip"
+                    android:layout_marginTop="10dip"
+                    android:horizontalSpacing="10dip"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="2"
+                    android:verticalSpacing="10dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_appointmentnew_servicecard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="15dip"
+                android:visibility="gone" >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="15dip"
+                    android:layout_marginBottom="30dip"
+                    android:background="@color/f8f8ff8" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dip"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip" >
+
+                    <TextView
+                        android:id="@+id/tv_appointmentnew_servicecardline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="15dip"
+                        android:layout_marginRight="15dip"
+                        android:text="购买服务卡，立享洗美折扣"
+                        android:textColor="@color/a666666"
+                        android:textSize="14sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/tv_appointmentnew_servicecardline"
+                        android:background="@color/acccccc" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/tv_appointmentnew_servicecardline"
+                        android:background="@color/acccccc" />
+                </RelativeLayout>
+
+                <com.haotang.pet.view.MarqueeView
+                    android:id="@+id/mv_appointmentnew_verticalbanner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dip"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginRight="15dip"
+                    android:background="@color/white"
+                    app:mvAnimDuration="1000"
+                    app:mvGravity="center"
+                    app:mvInterval="3000"
+                    app:mvSingleLine="true"
+                    app:mvTextColor="@color/a333333"
+                    app:mvTextSize="12sp" />
+
+                <com.haotang.pet.view.HorizontalListView
+                    android:id="@+id/hlv_appointmentnew_servicecard"
+                    android:layout_width="match_parent"
+                    android:layout_height="158dip"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginRight="15dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

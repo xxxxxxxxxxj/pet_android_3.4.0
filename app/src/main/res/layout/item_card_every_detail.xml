@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/item_every_card_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试中级美容师洗澡"
+            android:textColor="@color/a666666"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/item_card_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="测试5"
+            android:textColor="@color/a666666" />
+
+        <TextView
+            android:id="@+id/item_card_count_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="次"
+            android:textColor="@color/a666666" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" 
+        >
+
+        <TextView
+            android:id="@+id/item_card_old_price_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="原价"
+            android:textColor="@color/a999999"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/item_card_old_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="测试500"
+            android:textColor="@color/a333333"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/item_card_cutdow_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:text="测试服务卡折扣价"
+            android:textColor="@color/a999999"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/item_card_cutdown_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="¥415"
+            android:textColor="@color/aD1494F"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

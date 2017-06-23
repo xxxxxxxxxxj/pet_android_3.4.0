@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <!-- com.haotang.pet.view.CircleImageView -->
+
+        <ImageView
+            android:id="@+id/cir_pet_icon"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:adjustViewBounds="true"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/beau_to_apponiment"/>
+        <!-- app:border_color="@color/red"
+            app:border_width="0dp"  -->
+            
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/img_is_choose" >
+
+                <TextView
+                    android:id="@+id/item_service_mypet_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="@color/a333333"
+                    android:text="宠物昵称" />
+
+                <TextView
+                    android:id="@+id/item_service_mypet_kind_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="@color/a666666"
+                    android:text="宠物种类名称" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img_is_choose"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@drawable/complaint_reason_disable" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/af8f8f8" />
+
+</LinearLayout>

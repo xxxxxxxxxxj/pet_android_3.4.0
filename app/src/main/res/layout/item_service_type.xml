@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haotang.pet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout
+        android:id="@+id/re_layout_go_shop"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#F8F4EB"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <com.haotang.pet.view.SelectableRoundedImageView
+            android:id="@+id/imageview_go_shop_icon"
+            android:layout_width="55dip"
+            android:layout_height="55dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_service_goshop"
+            android:visibility="visible"
+            custom:sriv_left_bottom_corner_radius="5dip"
+            custom:sriv_left_top_corner_radius="5dip"
+            custom:sriv_right_bottom_corner_radius="5dip"
+            custom:sriv_right_top_corner_radius="5dip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/relayout_service_item_go_shop"
+            android:layout_toRightOf="@+id/imageview_go_shop_icon"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" 
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/textview_go_shop_name_and_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="shopname"
+                            android:textColor="@color/a333333"
+                            android:textSize="18sp" />
+
+                        <LinearLayout
+                            android:id="@+id/layout_hot"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/textview_go_shop_name_and_price"
+                            android:layout_toRightOf="@+id/textview_go_shop_name_and_price"
+                            android:orientation="vertical"
+                            android:visibility="gone" >
+
+                            <ImageView
+                                android:layout_width="23dp"
+                                android:layout_height="9.5dp"
+                                android:layout_marginTop="4.75dp"
+                                android:src="@drawable/hot" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical" 
+                    android:layout_marginTop="3dp">
+
+                    <TextView
+                        android:id="@+id/service_go_shop_show_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="详细信息"
+                        android:textColor="#949494"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relayout_service_item_go_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="visible" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical" 
+                android:layout_marginTop="3dp">
+
+                <LinearLayout
+                    android:id="@+id/item_layout_isshow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom" >
+
+                    <TextView
+                        android:id="@+id/textview_service_price_mark_go_shop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/textview_service_text_price_from_go_shop"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/textview_service_text_price_from_go_shop"
+                        android:text="¥"
+                        android:textColor="@color/aE2364A"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/textview_service_text_price_from_go_shop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/textview_service_text_price_from_detail_go_shop"
+                        android:text="32"
+                        android:textColor="@color/aE2364A"
+                        android:textStyle="bold"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textview_service_text_price_from_detail_go_shop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/textview_service_text_price_from_go_shop"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/button_go_apponit_shop"
+                        android:text="起"
+                        android:textColor="@color/aD1494F"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/button_go_apponit_shop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/service_button_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/bg_button_service_new_appoint_ok"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="9dp"
+                    android:paddingRight="9dp"
+                    android:paddingTop="3dp"
+                    android:text="预约"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/textview_serviceType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/un_support_icon"
+            android:drawablePadding="10dp"
+            android:gravity="right|center_vertical"
+            android:padding="10dp"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="测试 " />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_item_appointmentnewextraitem_qipao"
+        android:layout_width="14dip"
+        android:layout_height="14dip"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/appointnew_addextraitem_qipao"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:background="@drawable/ll_yellow_border_selector"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:paddingRight="15dip" >
+
+        <ImageView
+            android:layout_width="14dip"
+            android:layout_height="14dip"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dip"
+            android:src="@drawable/appointnew_addextraitem_img" />
+
+        <TextView
+            android:id="@+id/tv_item_appointmentnewextraitem_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="TextView"
+            android:layout_marginRight="2dip"
+            android:textColor="@color/a666666"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_item_appointmentnewextraitem_yuanprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="2dip"
+            android:text="TextView"
+            android:textColor="@color/a666666"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tv_item_appointmentnewextraitem_xianprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="TextView"
+            android:textColor="@color/aD1494F"
+            android:textSize="10sp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_item_appointmentnewextraitem_wenhao"
+            android:layout_width="20dip"
+            android:layout_height="20dip" >
+
+            <ImageView
+                android:layout_width="11.5dip"
+                android:layout_height="11.5dip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="4dip"
+                android:src="@drawable/appoint_wenhao_img" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

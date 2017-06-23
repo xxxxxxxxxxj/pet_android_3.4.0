@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/layout_top_set_back"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" >
+
+                <ImageView
+                    android:id="@+id/imageview_show_back_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/mycard_back" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/aF8F1E8"
+                android:paddingBottom="5dp"
+                android:paddingLeft="@dimen/margin_left"
+                android:paddingRight="@dimen/margin_right"
+                android:paddingTop="5dp"
+                android:text="不同宠物品种由于体型、毛发长度不同，服务卡洗护套餐价格不同" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/margin_left"
+                android:text="请选择您为哪一个宝贝买服务卡"
+                android:textColor="@color/a030303"
+                android:background="@color/white"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:background="@color/af8f8f8" />
+
+            <com.haotang.pet.view.MListview
+                android:id="@+id/mListview_my_pet"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"
+                android:background="@color/white"
+                android:listSelector="@color/transparent" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/af8f8f8" />
+
+            <TextView
+                android:id="@+id/textview_is_not_support"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="犬种不支持服务卡" />
+
+            <com.haotang.pet.view.MListview
+                android:id="@+id/mListview_card_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:listSelector="@color/transparent" 
+                android:divider="@color/af8f8f8"
+                android:dividerHeight="10dp"
+                android:background="@color/white"
+                android:paddingRight="@dimen/margin_right"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/af8f8f8" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="服务卡介绍"
+                android:textColor="@color/a333333" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/af8f8f8" 
+                />
+
+            <com.haotang.pet.view.MListview
+                android:id="@+id/cards_scaling_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:divider="@null"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

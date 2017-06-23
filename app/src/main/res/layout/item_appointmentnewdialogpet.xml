@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_item_appointmentnewdialogpet"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_marginRight="5dip"
+            android:src="@drawable/icon_pay_normal" />
+
+        <TextView
+            android:id="@+id/tv_item_appointmentnewdialogpet_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="TextView"
+            android:textColor="@color/a666666"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_item_appointmentnewdialogpet_petname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="TextView"
+            android:textColor="@color/a666666"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

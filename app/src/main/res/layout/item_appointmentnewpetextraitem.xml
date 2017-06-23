@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="20dip"
+    android:background="@drawable/ll_dddd_border_selector"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_item_appointmentnewpetextraitem_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dip"
+        android:text="TextView"
+        android:textColor="@color/a666666"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_item_appointmentnewpetextraitem_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="TextView"
+        android:layout_marginRight="5dip"
+        android:textColor="@color/a666666"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/iv_item_appointmentnewpetextraitem_delete"
+        android:layout_width="10.5dip"
+        android:layout_gravity="center"
+        android:layout_height="10.5dip"
+        android:src="@drawable/extraitem_delete" />
+
+</LinearLayout>

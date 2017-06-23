@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bggray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/order_remark_back"
+            android:orientation="vertical" 
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="@dimen/margin_left"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="联系人" />
+
+                <EditText
+                    android:id="@+id/textview_cname"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:hint="请输入联系人" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/af8f8f8" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="@dimen/margin_left"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="手机号" />
+
+                <EditText
+                    android:id="@+id/textview_tel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:hint="请输入手机号" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_note_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dip"
+            android:layout_marginRight="12dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/bg_note_round"
+            android:gravity="top"
+            android:lines="8"
+            android:maxLength="100"
+            android:paddingBottom="3dip"
+            android:paddingLeft="4dip"
+            android:paddingRight="4dip"
+            android:paddingTop="3dip"
+            android:textColor="@color/a666666"
+            android:hint="订单备注"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/bt_note_submite"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginRight="@dimen/margin_right"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/bg_button_orange"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginRight="@dimen/margin_right"
+            android:layout_marginTop="20dip"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/ll_note_note1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/bg_note_biground"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <ImageView
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:background="@drawable/icon_note_add"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/tv_note_note1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:singleLine="true"
+                    android:text="经常去宠物店"
+                    android:textColor="@color/a666666"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_note_note2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/bg_note_biground"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <ImageView
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:background="@drawable/icon_note_add"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/tv_note_note2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:singleLine="true"
+                    android:text="有点小淘气"
+                    android:textColor="@color/a666666"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginRight="@dimen/margin_right"
+            android:layout_marginTop="15dip"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/ll_note_note3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/bg_note_biground"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <ImageView
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:background="@drawable/icon_note_add"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/tv_note_note3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:singleLine="true"
+                    android:text="毛毛有结 "
+                    android:textColor="@color/a666666"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_note_note4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/bg_note_biground"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <ImageView
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:background="@drawable/icon_note_add"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/tv_note_note4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:singleLine="true"
+                    android:text="最近肠胃不太好"
+                    android:textColor="@color/a666666"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

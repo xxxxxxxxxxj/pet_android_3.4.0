@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_pop_selectphoto_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="@color/black" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_pw_appointnewwenhao"
+        android:layout_width="match_parent"
+        android:layout_height="180dip"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip"
+        android:background="@android:color/transparent" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_alignParentTop="true"
+            android:background="@color/aDDDDDD" />
+
+        <TextView
+            android:id="@+id/tv_pw_appointnewwenhao_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:lineSpacingExtra="3dp"
+            android:lineSpacingMultiplier="1.5"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/ib_pw_appointnewwenhao_close"
+        android:layout_width="35dip"
+        android:layout_height="35dip"
+        android:layout_above="@id/rl_pw_appointnewwenhao"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="60dip"
+        android:layout_marginRight="30dip"
+        android:background="@drawable/icon_close_gary"
+        android:scaleType="fitXY" />
+
+</RelativeLayout>

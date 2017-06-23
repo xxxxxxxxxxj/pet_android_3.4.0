@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar" />
+
+    <ScrollView
+        android:id="@+id/scrollView_service_new"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:focusable="true"
+        	android:focusableInTouchMode="true">
+
+            <include
+                android:id="@+id/rl_ppllayout_top"
+                android:layout_width="match_parent"
+                android:layout_height="160dip"
+                layout="@layout/header_bathservicedetail" />
+            <include 
+                  android:id="@+id/rl_ppllayout_content"
+              	  android:layout_width="match_parent"
+              	  android:layout_height="match_parent"
+                  layout="@layout/servicenew_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

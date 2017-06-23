@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_dialog_message"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="阿宠发现有更近门店是否切换" />
+
+        <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout 
+            android:id="@+id/rl_dialog_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <Button 
+                android:id="@+id/bt_dialog_cancel"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="Cancel"
+                android:textColor="@drawable/dialog_text_color"
+                android:textSize="18sp"
+                android:background="@null"
+                android:layout_centerInParent="true"
+                />
+        <View 
+            android:layout_width="1dip"
+            android:layout_height="50dip"
+            android:background="@color/bordergray"
+            android:layout_weight="1"
+            android:layout_alignParentRight="true"
+            />
+        </RelativeLayout>
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <Button 
+                android:id="@+id/bt_dialog_ok"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="OK"
+                android:textColor="@drawable/dialog_text_color"
+                android:textSize="18sp"
+                android:background="@null"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
